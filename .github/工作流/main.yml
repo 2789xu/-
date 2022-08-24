@@ -23,8 +23,8 @@ jobs:
     - run: pip install -r ./requirements.txt && python ./main.py
 
     env:
-      APP_ID: ${{ wx8269d557e2e70324}}
-      APP_SECRET: ${{f62b9c6e83890a7a2cca5b172f97e01c }}
+      APP_ID: ${{ wx8269d557e2e70324 }}
+      APP_SECRET: ${{ 7852bed304acef88e0365708daf18bf4 }}
       TEMPLATE_ID: ${{ 	Tn8MZtz1Iks-03bnLJJilQE34GdwTsnss0xl-c8dK2w	 }}
       USER_ID: ${{ oeXG45nzND2f80WUrE4FAdkEvxrk }}
       START_DATE: ${{ 08-24 }}
